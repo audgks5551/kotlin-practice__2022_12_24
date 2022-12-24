@@ -30,6 +30,7 @@ class ChildBulldog : Bulldog() {
 
 // 추상 클래스
 abstract class Developer {
+    var name: String = "default"
     abstract var age: Int
     abstract fun code(language: String)
 }
@@ -48,4 +49,5 @@ fun main() {
     val developer = BackendDeveloper(age = 27)
     println(developer.age)
     developer.code("Kotlin")
+    println(developer.name)
 }
