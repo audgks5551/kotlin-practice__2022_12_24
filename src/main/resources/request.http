@@ -1,0 +1,17 @@
+### 1
+GET http://localhost:8080/books
+
+### 2
+GET http://localhost:8080/books/2
+
+### 3
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name": "디자인패턴",
+  "price": 20000
+}
+
+### 4
+DELETE http://localhost:8080/books/2
