@@ -11,3 +11,6 @@
 ## 참고사이트
 - [코루틴 개념 익히기](https://wooooooak.github.io/kotlin/2019/08/25/%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%BD%94%EB%A3%A8%ED%8B%B4-%EA%B0%9C%EB%85%90-%EC%9D%B5%ED%9E%88%EA%B8%B0/)
 - [코루틴이 가능한 이유(CPS[Continuatino Passing Style])](http://dogfeet.github.io/articles/2012/by-example-continuation-passing-style-in-javascript.html)
+
+# 팁
+- `-Dkotlinx.coroutines.debug` 를 VM Option 으로 넣어야 해당 스코프가 코루틴 스코프인지 알 수 있다.
