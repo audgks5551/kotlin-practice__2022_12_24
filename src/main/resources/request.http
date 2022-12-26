@@ -2,7 +2,7 @@
 GET http://localhost:8080/books
 
 ### 2
-GET http://localhost:8080/books/2
+GET http://localhost:8080/books/1
 
 ### 3
 POST http://localhost:8080/books
@@ -21,3 +21,6 @@ GET http://localhost:8080/books/block
 
 ### 6
 GET http://localhost:8080/books/nonblock
+
+### 7
+GET http://localhost:8080/books/searchName/디자인패턴
