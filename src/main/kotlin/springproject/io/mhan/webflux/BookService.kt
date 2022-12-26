@@ -19,6 +19,7 @@ class BookService {
         Book(id = nextId.incrementAndGet(), name = "HTTP 완벽 가이드", price = 40000),
     )
 
+
     fun getAll() : Flux<Book> {
         return books.toFlux()
     }
